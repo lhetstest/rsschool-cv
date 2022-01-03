@@ -4,18 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>cv</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Jura:wght@300;600&display=swap" rel="stylesheet">
+    <title>Yuliia Rul CV</title>
 </head>
 <body>
-    <header class="header">
+    <div class="container">
+        <header class="header">
+            <div class="header__image">
+                <img class="header__image-item" src="./images/yuliia_rul_photo.jpg" alt="avatar">
+            </div>
+            <div class="header__info">
+                <h1 class="header__name"><span>Hello, I am</span> Yuliia Rul</h1>
+                <div class="header__contacts">
+                    <h2 class="title title-inner">Contact me</h2>
+                    <ul class="skills__set">
+                        <li>location: <b>Ukraine, Ternopil</b></li>
+                        <li>telegram: <b>@lhest</b></li>
+                    </ul>
+                    <h2 class="title title-inner">Check portfolio</h2>
+                    <ul class="skills__set">
+                        <li><a class="link" href="https://www.linkedin.com/in/yuliia-rul-3742a77b/" target="_blank">Linkedin</a></li>
+                        <li><a class="link" href="https://gitlab.com/yrul" target="_blank">Gitlab</a></li>
+                    </ul>
 
-    </header>
-    <main class="main-container">
-        <section class="about-me">
+                    <h2 class="title title-inner">Intro</h2>
+                    <p class="header__intro-text">
+                        Having a huge experience in Testing and worked with a bunch of different projects as QA, decided to move forward with learning
+                        Started diving deeply into the HTML, css, js, in many different schools and courses.
+                        Done many study-projects and still not confident in knowledge. 
+                        Here I am to study and to create the proper portfolio and cv, and after all to get hired as a Frontend Developer.
+                    </p>
+                </div>
+            </div>
+        </header>
 
-        </section>
-        
-    </main>
+        <main class="main-container">
+            <section class="skills__pro">
+                <div class="skills__pro-techs">
+                    <h2 class="title-inner">Technologies</h2>
+                    <ul class="skills__set">
+                        <li>HTML5, CSS3, scss, sass</li>
+                        <li>Javascript, ES6 basics</li>
+                        <li>SQL, MySQL, Data Bases theory</li>
+                        <li>Git (worked with GitLab, BitBucket, Github)</li>
+                        <li>VS Code, WebStorm, Figma</li>                    
+                    </ul>
+                </div>
+                <div class="skills__pro-languages">
+                    <h2 class="title-inner">Languages</h2>
+                    <ul class="skills__set">
+                        <li>English: <b>B2</b></li>
+                        <li>Ukrainian: <b>fluent</b></li>
+                        <li>Russian: <b>native</b> </li>
+                        <li>German: <b>basic</b></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="education">
+                <div class="education__list">
+                    <h2 class="title-inner">Educated by</h2>
+                    <ul class="skills__set">
+                        <li>2001-2007: NTUU KPI by Sikorsky</li>
+                        <li>Hexlet: Htmls for beginners</li>
+                        <li>Sololearn: SQL, HTML;</li>
+                        <li><a class="link" href="https://www.freecodecamp.org/lhest" target="_blank">FreeCodeCamp</a></li>
+                    </ul>
+                </div>
+                <div class="education__example">
+                    <h2 class="title-inner">Code Example</h2>
+                    <pre class="code skills__set">
+  function pipeFix(numbers){
+            let arr = [];
+            for (let i=numbers[0]; 
+            i<=numbers[numbers.length - 1]; 
+            i++
+        ){ arr.push(i) }
+        return arr; } </pre>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <img class="logo" src="./images/rs_school_js.svg" alt="logo">
+            <p>Made by lhetstest</p>
+            <a class="rsschool-link" href="https://rs.school/js/" target="_blank">Rs School JS</a>
+        </footer>
+    </div>
 </body>
 </html>
