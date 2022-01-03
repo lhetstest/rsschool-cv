@@ -53,6 +53,10 @@ body {
     font-weight: 400;
     color: rgb(29, 19, 6);
 }
+.header__title{
+    text-align: center;
+    padding: 10px;
+}
 
 .title-inner {
     font-size: 28px;
@@ -60,8 +64,15 @@ body {
     margin-bottom: 5px;
 }
 
-.link {
-    
+.link, .rsschool-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(41, 17, 17);
+}
+
+.link:hover, .rsschool-link:hover{
+    text-decoration: underline;
+    color: darkgreen;
 }
 
 .skills__set{
