@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jura', sans-serif;
+}
+
+body {
+    background-color: rgb(82, 75, 75);
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;    
+    /* border: 5px solid rgb(95, 78, 66); */
+    border-radius: 9px;
+    background-color: rgb(161, 150, 150);
+    box-shadow: 0 0 30px  rgb(0 0 0 / 20%);
+}
+
+.header{
+    border-radius: 7px 7px 0 0;
+}
+
+.header, .skills__pro, .education {
+  display:flex;  
+  justify-content: space-around;
+  
+  padding: 30px;
+}
+
+.header__image-item{
+    border: 5px solid rgb(95, 78, 66);
+    border-radius: 50%;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+.header__contacts {
+    max-width: 500px;
+}
+ 
+.header__name{
+    font-family: 'Aclonica', sans-serif;;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(47, 54, 56);
+}
+.header__name span {
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(29, 19, 6);
+}
+.header__title{
+    text-align: center;
+    padding: 10px;
+}
+
+.title-inner {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+
+.link, .rsschool-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(41, 17, 17);
+}
+
+.link:hover, .rsschool-link:hover{
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.skills__set{
+    width: 300px;
+}
+
+.skills__set li{
+    list-style: square;
+    margin-left: 25px;
+}
+
+.code {
+    background-color: rgb(211, 199, 199);
+    border-radius: 4%;
+    padding: 7px 0;
+}
+
+.footer {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 17px;
+    border-radius: 0 0 7px 7px;
+}
+
+.logo {
+    width: 100px;
+}
