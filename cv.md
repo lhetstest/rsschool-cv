@@ -1,7 +1,7 @@
 # Yuliia Rul
 
 ## Frontend Developer
-----
+
 ### Contacts
 
 * location: *Ukraine, Ternopil*
